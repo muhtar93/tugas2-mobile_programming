@@ -22,7 +22,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="#000000"
-        android:text="Travel App"/>
+        android:text="@string/app_name"/>
     <ProgressBar
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"

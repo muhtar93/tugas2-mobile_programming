@@ -1,5 +1,6 @@
 package id.co.passionit.sample;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
@@ -26,10 +27,23 @@ public class SignUpSignInActivity extends AppCompatActivity {
 
 
         TextView textViewAppName = (TextView) findViewById(R.id.textAppName);
+        TextView textViewNote = (TextView) findViewById(R.id.textNote);
         Button btnSignUp = (Button) findViewById(R.id.btnSignUp);
+        Button btnSignIn = (Button) findViewById(R.id.btnSignIn);
 
         Typeface face= Typeface.createFromAsset(getAssets(), "WoodfordBournePRO-Light.otf");
         textViewAppName.setTypeface(face);
+        textViewNote.setTypeface(face);
+        btnSignUp.setTypeface(face);
+        btnSignIn.setTypeface(face);
+
+
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SignUpSignInActivity.this, SignUpActivity.class));
+            }
+        });
 
     }
 }
