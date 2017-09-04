@@ -49,5 +49,12 @@ public class SignInActivity extends AppCompatActivity {
                 Toast.makeText(SignInActivity.this, "ouh", Toast.LENGTH_SHORT).show();
             }
         });
+
+        btnSignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SignInActivity.this, MainActivity.class));
+            }
+        });
     }
 }

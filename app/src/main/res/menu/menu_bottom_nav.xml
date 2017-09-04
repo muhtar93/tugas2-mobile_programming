@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_remove_red_eye_black_24dp"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_money"
+        android:enabled="true"
+        android:icon="@drawable/ic_email_black_24dp"
+        android:title="Tours"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_star"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Explore"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_star2"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+</menu>
