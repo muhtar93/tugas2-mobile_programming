@@ -3,30 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/muhtar/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.0.9/4244e2998018aa492389e8e30a77b7987959608e/MPAndroidChart-v2.0.9.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="4244e2998018aa492389e8e30a77b7987959608e">
-        <dex dex="/Users/muhtar/Public/AndroidProjects/Sample/app/build/intermediates/transforms/dex/debug/folders/1000/10/MPAndroidChart-v2.0.9_00287ce54f4f56d392dbd094a2d3986cd5ec8856/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/Public/AndroidProjects/Sample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="c9adaa8c474337b2746e7b9723cd11f0ff78cf67">
-        <dex dex="/Users/muhtar/Public/AndroidProjects/Sample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b9e1b30920331b432f24262d88c64c8a45804165/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/Public/AndroidProjects/Sample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/muhtar/Public/TugasKuliah/tugas2-mobile_programming/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/muhtar/Public/AndroidProjects/Sample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6f8d9495cdf41bb704d9b3dd4117122ef185cc12/classes.dex" />
+        <dex dex="/Users/muhtar/Public/TugasKuliah/tugas2-mobile_programming/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5b2c421bebbf2d9897c42c0bf326b1e9fc2df5d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/muhtar/Public/TugasKuliah/tugas2-mobile_programming/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53e754bf095bc90115049fdd823757649fa477e0">
+        <dex dex="/Users/muhtar/Public/TugasKuliah/tugas2-mobile_programming/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_559a3397c9dcc82b65111f8f3352f892bf673680/classes.dex" />
     </item>
 
 </items>
